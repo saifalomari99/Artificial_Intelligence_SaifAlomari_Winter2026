@@ -12,7 +12,7 @@ The agent learns entirely through reward-based interaction with the environment.
 
 ## 🎬 Example Agent Behavior
 
-### Early Training Behavior
+### Picture1
 
 ![Early Training](Luner_Lander_pic1.png)
 
@@ -20,7 +20,7 @@ During early training, the agent behaves randomly, frequently crashes, and recei
 
 ---
 
-### Stable Landing Behavior
+### Picture2
 
 ![Stable Landing](Luner_Lander_pic2.png)
 
