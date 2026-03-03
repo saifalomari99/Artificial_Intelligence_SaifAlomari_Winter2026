@@ -95,7 +95,3 @@ Evaluation performed over 100 deterministic episodes:
 
 The trained agent demonstrates consistent and reliable landing behavior across varied initial conditions.
 
----
-
-## 📂 Repository Structure
-
