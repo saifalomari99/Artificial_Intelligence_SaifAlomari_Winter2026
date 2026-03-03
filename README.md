@@ -12,11 +12,29 @@ Each project explores how agents learn through interaction, feedback, and optimi
 
 ## 📌 Overview
 
-This project implements a Deep Q Network (DQN) agent to solve the **LunarLander-v3** environment from Gymnasium.
+This project implements a Deep Q Network (DQN) agent to solve the **LunarLander-v3** environment.
 
 The goal is to train an intelligent control policy that allows a lunar lander to safely descend and land between two flags while minimizing crashes and inefficient fuel usage.
 
 The agent learns entirely through reward-based interaction with the environment.
+
+---
+
+## 🎬 Example Agent Behavior
+
+### Early Training Behavior
+
+![Early Training](Reinforcement_Learning_Luner_Lander/Luner_Lander_pic1.png)
+
+During early training, the agent behaves randomly, frequently crashes, and receives strongly negative rewards.
+
+---
+
+### Stable Landing Behavior
+
+![Stable Landing](Reinforcement_Learning_Luner_Lander/Luner_Lander_pic2.png)
+
+After sufficient training, the agent stabilizes descent, controls orientation, and consistently lands between the flags.
 
 ---
 
@@ -43,10 +61,10 @@ Training stability is improved using:
 
 - Maximum timesteps: 600,000  
 - Training duration: 2,000 episodes  
-- Exploration schedule properly decayed  
+- Proper exploration decay schedule  
 
-An earlier attempt suffered from insufficient exploration decay, resulting in mostly random behavior and average rewards around -150.  
-After correcting the training schedule, the agent achieved consistent rewards above 200.
+An earlier attempt resulted in mostly random behavior due to incorrect exploration scheduling.  
+After correcting the training configuration, the agent achieved consistent rewards above 200.
 
 ---
 
@@ -55,19 +73,16 @@ After correcting the training schedule, the agent achieved consistent rewards ab
 The training process shows clear learning phases:
 
 **Episodes 0–300**  
-Highly unstable behavior. Frequent crashes. Strongly negative rewards.
+Highly unstable behavior with frequent crashes.
 
 **Episodes 300–1000**  
-Gradual stabilization. Partial descent control but inconsistent landings.
+Gradual stabilization and partial control.
 
 **Around Episode 1000**  
-Breakthrough phase. Reward transitions from negative to positive.
+Breakthrough phase where rewards transition from negative to positive.
 
 **Episodes 1300–1800**  
-Stable high performance. Moving average reward consistently above 200.
-
-**After Episode 1800**  
-Minor instability due to continued exploration, but overall strong performance maintained.
+Stable high performance with average reward exceeding 200.
 
 ---
 
@@ -78,12 +93,9 @@ Evaluation performed over 100 deterministic episodes:
 - **Mean Reward:** 206.46  
 - **Mean Episode Length:** 183.35  
 
-The average reward exceeds 200, demonstrating consistent and reliable landing performance across varying initial conditions.
+The trained agent demonstrates consistent and reliable landing behavior across varied initial conditions.
 
 ---
 
-## 🎬 Example Gameplay
+## 📂 Repository Structure
 
-### Successful Landing
-
-(Add your GIF or video below)
