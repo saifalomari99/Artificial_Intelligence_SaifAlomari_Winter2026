@@ -14,7 +14,7 @@ The agent learns entirely through reward-based interaction with the environment.
 
 ### Early Training Behavior
 
-![Early Training](Reinforcement_Learning_Luner_Lander/Luner_Lander_pic1.png)
+![Early Training](Luner_Lander_pic1.png)
 
 During early training, the agent behaves randomly, frequently crashes, and receives strongly negative rewards.
 
