@@ -14,13 +14,20 @@ This project implements a Deep Q Network (DQN) agent to solve the LunarLander-v3
 
 Over the course of training, the model transitions from unstable, crash-prone behavior to consistent and controlled landings, achieving a mean evaluation reward above 200 across 100 test episodes. This project demonstrates practical reinforcement learning applied to autonomous decision-making and control.
 
+---
+
+## 🎬 Agent Behavior Evolution
+
+### Episode 150 – Early Training (Chaotic Behavior)
+
+![Episode 150](Reinforcement_Learning_Luner_Lander/dqn_train-episode-150.gif)
+
+In early training, the agent behaves randomly, fires engines without clear strategy, and frequently crashes.
 
 ---
 
-### Episode 750 – Mid Training Behavior
+### Episode 1775 – Stable Landing Policy
 
-[▶ Watch Episode 750](Reinforcement_Learning_Luner_Lander/dqn_train-episode-750.mp4)
+![Episode 1775](Reinforcement_Learning_Luner_Lander/dqn_train-episode-1775.gif)
 
-### Episode 1200 – Transition Phase
-
-[▶ Watch Episode 1200](Reinforcement_Learning_Luner_Lander/dqn_train-episode-1200.mp4)
+After sufficient training, the agent demonstrates controlled descent, stabilized orientation, and consistent landings between the flags.
