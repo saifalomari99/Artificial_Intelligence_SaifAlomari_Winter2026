@@ -22,7 +22,7 @@ During early training, the agent behaves randomly, frequently crashes, and recei
 
 ### Stable Landing Behavior
 
-![Stable Landing](Reinforcement_Learning_Luner_Lander/Luner_Lander_pic2.png)
+![Stable Landing](Luner_Lander_pic2.png)
 
 After sufficient training, the agent stabilizes descent, controls orientation, and consistently lands between the flags.
 
