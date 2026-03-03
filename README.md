@@ -10,9 +10,6 @@ Each project explores how agents learn through interaction, feedback, and optimi
 
 # 🚀 Project 1: Lunar Lander (Deep Q Learning)
 
-
-## 🚀 Lunar Lander – Deep Q Learning
-
 This project implements a Deep Q Network (DQN) agent to solve the LunarLander-v3 environment. The agent learns to safely land a spacecraft between designated flags through reward-based interaction with the environment. 
 
 Over the course of training, the model transitions from unstable, crash-prone behavior to consistent and controlled landings, achieving a mean evaluation reward above 200 across 100 test episodes. This project demonstrates practical reinforcement learning applied to autonomous decision-making and control.
