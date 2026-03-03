@@ -1,8 +1,4 @@
 # Artificial_Intelligence_SaifAlomari_Winter2026
-Artificial Intelligence projects from Winter 2026 focused on reinforcement learning, intelligent agents, and autonomous decision-making systems.
-
-
-# Artificial Intelligence – Winter 2026  
 ### Saif Alomari
 
 This repository contains Artificial Intelligence projects developed during Winter 2026.  
