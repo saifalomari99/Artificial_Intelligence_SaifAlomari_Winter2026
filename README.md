@@ -17,18 +17,10 @@ Over the course of training, the model transitions from unstable, crash-prone be
 
 ---
 
-## 🎬 Training Behavior Videos
-
 ### Episode 750 – Mid Training Behavior
 
-<video src="Reinforcement_Learning_Luner_Lander/dqn_train-episode-750.mp4" width="700" controls></video>
-
-This stage shows partial stabilization with inconsistent landings.
-
----
+[▶ Watch Episode 750](Reinforcement_Learning_Luner_Lander/dqn_train-episode-750.mp4)
 
 ### Episode 1200 – Transition Phase
 
-<video src="Reinforcement_Learning_Luner_Lander/dqn_train-episode-1200.mp4" width="700" controls></video>
-
-The agent survives longer and begins controlled descent behavior, but may still hover or overcorrect.
+[▶ Watch Episode 1200](Reinforcement_Learning_Luner_Lander/dqn_train-episode-1200.mp4)
