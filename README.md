@@ -20,7 +20,7 @@ Over the course of training, the model transitions from unstable, crash-prone be
 
 ### Episode 150 – Early Training (Chaotic Behavior)
 
-![Episode 150](Reinforcement_Learning_Luner_Lander/dqn_train-episode-150.gif)
+//![Episode 150](Reinforcement_Learning_Luner_Lander/dqn_train-episode-150.gif)
 <img src="Reinforcement_Learning_Luner_Lander/dqn_train-episode-150.gif" width="450">
 
 In early training, the agent behaves randomly, fires engines without clear strategy, and frequently crashes.
