@@ -29,7 +29,8 @@ In early training, the agent behaves randomly, fires engines without clear strat
 
 ### Episode 1775 – Stable Landing Policy
 
-![Episode 1775](Reinforcement_Learning_Luner_Lander/dqn_train-episode-1775.gif)
+
+<img src="Reinforcement_Learning_Luner_Lander/dqn_train-episode-1775.gif" width="450">
 
 After sufficient training, the agent demonstrates controlled descent, stabilized orientation, and consistent landings between the flags.
 
