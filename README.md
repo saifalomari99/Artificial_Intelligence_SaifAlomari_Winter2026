@@ -6,12 +6,11 @@ The focus is on reinforcement learning, intelligent agents, and autonomous decis
 
 Each project explores how agents learn through interaction, feedback, and optimization of long-term reward.
 
-
 ---
 
 # 🚀 Project 1: Lunar Lander (Deep Q Learning)
 
-This project implements a Deep Q Network (DQN) agent to solve the LunarLander-v3 environment. The agent learns to safely land a spacecraft between designated flags through reward-based interaction with the environment. 
+This project implements a Deep Q Network (DQN) agent to solve the LunarLander-v3 environment. The agent learns to safely land a spacecraft between designated flags through reward-based interaction with the environment.
 
 Over the course of training, the model transitions from unstable, crash-prone behavior to consistent and controlled landings, achieving a mean evaluation reward above 200 across 100 test episodes. This project demonstrates practical reinforcement learning applied to autonomous decision-making and control.
 
@@ -32,3 +31,52 @@ In early training, the agent behaves randomly, fires engines without clear strat
 ![Episode 1775](Reinforcement_Learning_Luner_Lander/dqn_train-episode-1775.gif)
 
 After sufficient training, the agent demonstrates controlled descent, stabilized orientation, and consistent landings between the flags.
+
+---
+
+# 🧠 Project 2: Prompt Critic Agent (Iterative Prompt Improvement)
+
+This project explores prompt engineering using an autonomous **Critic agent** that improves prompts designed to generate Python code.
+
+Instead of manually rewriting prompts, the system uses a language model to analyze a prompt and produce a clearer, more structured version that is more likely to generate robust and executable Python code.
+
+The Critic agent focuses on improving prompts that involve machine learning or data processing tasks.
+
+---
+
+## 🔁 Prompt Improvement Pipeline
+
+The notebook implements an **iterative prompt refinement loop**.
+
+1. **Original Prompt**  
+   A user provides a prompt requesting Python code.
+
+2. **First Revision**  
+   The Critic agent analyzes the prompt and rewrites it to improve clarity and structure.
+
+3. **Second Revision**  
+   The improved prompt is passed through the Critic again to further refine instructions and remove ambiguity.
+
+This process demonstrates how LLMs can be used not only to generate code but also to **improve the instructions used to generate that code**.
+
+---
+
+## ⚙️ Key Features
+
+The Critic agent improves prompts by ensuring that they:
+
+- Clearly define the programming task and expected output
+- Specify the programming language (Python) and relevant libraries
+- Explain how datasets should be loaded and preprocessed
+- Define model inputs, outputs, and training behavior
+- Request a **complete executable script instead of partial code**
+- Include training, evaluation, and visualization steps
+- Include clear code structure and comments
+- Handle missing files, missing data, or empty folders safely
+- Use reasonable assumptions when information is incomplete
+
+The project demonstrates how **prompt engineering and iterative refinement** can significantly improve the reliability of generated code.
+
+---
+
+## 📂 Project Structure
