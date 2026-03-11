@@ -34,6 +34,8 @@ After sufficient training, the agent demonstrates controlled descent, stabilized
 
 ---
 
+
+
 # 🧠 Project 2: Prompt Critic Agent (Iterative Prompt Improvement)
 
 This project explores prompt engineering using an autonomous **Critic agent** that improves prompts designed to generate Python code.
@@ -59,24 +61,3 @@ The notebook implements an **iterative prompt refinement loop**.
 
 This process demonstrates how LLMs can be used not only to generate code but also to **improve the instructions used to generate that code**.
 
----
-
-## ⚙️ Key Features
-
-The Critic agent improves prompts by ensuring that they:
-
-- Clearly define the programming task and expected output
-- Specify the programming language (Python) and relevant libraries
-- Explain how datasets should be loaded and preprocessed
-- Define model inputs, outputs, and training behavior
-- Request a **complete executable script instead of partial code**
-- Include training, evaluation, and visualization steps
-- Include clear code structure and comments
-- Handle missing files, missing data, or empty folders safely
-- Use reasonable assumptions when information is incomplete
-
-The project demonstrates how **prompt engineering and iterative refinement** can significantly improve the reliability of generated code.
-
----
-
-## 📂 Project Structure
