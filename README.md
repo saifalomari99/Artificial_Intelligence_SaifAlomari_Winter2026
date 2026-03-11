@@ -6,6 +6,7 @@ The focus is on reinforcement learning, intelligent agents, and autonomous decis
 
 Each project explores how agents learn through interaction, feedback, and optimization of long-term reward.
 
+
 ---
 
 # 🚀 Project 1: Lunar Lander (Deep Q Learning)
